@@ -1,6 +1,14 @@
 # HyperClimb
 Créé par : Monsef Ramhane
 
+**FR** — Jeu de **plateforme 2D basé sur la physique** (Godot 4) : le joueur pilote une voiture qui doit grimper un terrain accidenté sans se retourner. Points forts techniques : **physique de véhicule** (`RigidBody2D` + roues), **mécanique de *rewind*** (rembobinage du temps) et **machine à états finis**.
+
+**EN** — A **physics-based 2D platformer** (Godot 4): the player drives a car that must climb rough terrain without flipping over. Technical highlights: **vehicle physics** (`RigidBody2D` + wheels), a **rewind mechanic** (time rewind) and a **finite state machine**.
+
+**Stack** : Godot 4 · GDScript.
+
+> 🇫🇷 La documentation technique détaillée ci-dessous est en français. / 🇬🇧 Detailed technical write-up below is in French.
+
 ## Introduction
 
 HyperClimb est un jeu de plateforme 2D basé sur la physique. Le joueur contrôle une voiture qui doit grimper des pentes, franchir des bosses et atteindre le drapeau de fin de niveau sans se retourner .  
